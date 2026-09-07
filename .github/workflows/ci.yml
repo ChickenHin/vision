@@ -1,16 +1,16 @@
 name: Continuous Integration
 
 on:
-  push:
-    paths-ignore:
-    - .github/workflows/docker.yml
-    - .github/workflows/doxygen.yml
-    - 'doc/**'
-    - 'docker/**'
-    - '**.md'
-  pull_request:
-  schedule:
-  - cron: '0 0 * * SAT'
+  # push:
+  #   paths-ignore:
+  #   - .github/workflows/docker.yml
+  #   - .github/workflows/doxygen.yml
+  #   - 'doc/**'
+  #   - 'docker/**'
+  #   - '**.md'
+  # pull_request:
+  # schedule:
+  # - cron: '0 0 * * SAT'
   workflow_dispatch:
 
 env:
